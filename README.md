@@ -1,30 +1,37 @@
-# Airbnb-data-analysis
+#  Airbnb Data Analysis
 
-# Overview
-This project analyzes Airbnb listings data to uncover pricing trends, location insights, and host behaviors.
+##  Project Overview
+Performed exploratory data analysis (EDA) on Airbnb NYC dataset (~48,000 listings) to uncover pricing patterns, location trends, and host behavior.
 
-# Key Insights
-- Identified price distribution and outliers
-- Compared average prices across neighborhoods
-- Analyzed pricing based on room types
-- Studied relationship between reviews and pricing
-- Found top hosts with most listings
-- Manhattan has the highest average listing prices compared to other boroughs  
-- Entire homes/apartments are significantly more expensive than private/shared rooms  
-- Listings with higher availability tend to have lower prices, indicating supply-demand dynamics  
-# Tools Used
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
+##  Objectives
+- Analyze pricing trends across neighborhoods
+- Understand impact of room types on pricing
+- Explore relationship between reviews and price
+- Identify high-performing hosts and listing patterns
 
-# Visualizations
-- Price distribution histogram
-- Location vs price comparison
-- Room type pricing chart
-- Reviews vs price scatter plot
-- Top hosts bar chart
+##  Key Insights
+- Manhattan has the highest average listing prices among all boroughs  
+- Entire homes/apartments are priced significantly higher than private/shared rooms  
+- Listings with higher availability tend to have lower prices (supply-demand trend)  
+- Review count has weak correlation with price, indicating pricing is location-driven  
 
-# How to Run
-pip install -r requirements.txt  
+##  Tech Stack
+- Python (Pandas, NumPy)
+- Data Visualization (Matplotlib, Seaborn)
+- Jupyter Notebook
+
+##  Visualizations
+- Price distribution histogram  
+- Average price by neighborhood group  
+- Room type vs price comparison  
+- Reviews vs price scatter plot  
+- Availability analysis  
+
+##  Dataset
+- Source: Kaggle (Airbnb NYC 2019 dataset)
+- Size: ~48,000 rows
+
+##  How to Run
+```bash
+pip install -r requirements.txt
 jupyter notebook notebooks/analysis.ipynb
